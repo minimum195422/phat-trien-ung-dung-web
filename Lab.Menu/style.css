@@ -1,0 +1,15 @@
+.item {
+    width: 350px;
+    height: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.item.selected {
+    background-color: aqua;
+}
+
+#content {
+    margin-top: 0;
+    padding-top: 0;
+}

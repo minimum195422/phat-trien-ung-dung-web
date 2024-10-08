@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Tab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="tabs">
+      <div id="m1" class="tab" onclick="selectTab('m1')">VnExpress</div>
+      <div id="m2" class="tab" onclick="selectTab('m2')">Dantri</div>
+      <div id="m3" class="tab" onclick="selectTab('m3')">VOANews</div>
+      <div id="m4" class="tab" onclick="selectTab('m4')">Zing</div>
+    </div>
+
+    <hr />
+
+    <iframe id="contentFrame" src="http://vnexpress.net"></iframe>
+
+    <script src="script.js"></script>
+  </body>
+</html>
